@@ -1,6 +1,6 @@
 {
   "name": "manuelrodval",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A personal presentation card for Manuel Rodriguez (@manuelrodval)",
   "main": "card.js",
   "repository": {
@@ -14,7 +14,9 @@
   "keywords": [],
   "author": "Manuel Rodriguez",
   "license": "ISC",
-  "bin": {"manuelrodval":"./card.js"},
+  "bin": {
+    "manuelrodval": "./card.js"
+  },
   "dependencies": {
     "boxen": "^5.1.1",
     "chalk": "^4.1.2",
