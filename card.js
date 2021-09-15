@@ -18,7 +18,7 @@ const personal_data = {
     twitter: chalk.grey("  https://www.twitter.com/") + chalk.bold.blue("Manuel3v9"),
     github_key: chalk.bold("  GitHub: "),
     github: chalk.grey("  https://www.github.com/") + chalk.bold.blue("manuelrodval"),
-}
+};
 
 const message = boxen([
     `${personal_data.name}`, 
@@ -34,7 +34,7 @@ const message = boxen([
     "want to say hi, my inbox is open. I will get back", "at you."
     ].join('\n'),
     {padding: 1, margin: 1, borderStyle: 'double', borderColor:"#38b000", float:"center"}
-)
+);
 
 const questions = [
     {
@@ -61,7 +61,7 @@ const questions = [
 
 
 
-console.log(message)
+console.log(message);
 
 prompt(questions).then(answer => answer.answer());
 
