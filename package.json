@@ -3,11 +3,16 @@
   "version": "1.0.3",
   "description": "A personal presentation card for Manuel Rodriguez (@manuelrodval)",
   "main": "card.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelrodval/manuelrodval_cli_card/manuelrodval_cli_card.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
   },
   "keywords": [],
-  "author": "",
+  "author": "Manuel Rodriguez",
   "license": "ISC",
   "bin": "./card.js",
   "dependencies": {
